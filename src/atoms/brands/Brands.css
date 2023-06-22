@@ -1,0 +1,9 @@
+.containerBrands {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    width: 1300px;
+}

@@ -1,0 +1,10 @@
+body {
+    background-color: #171133;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#root {
+
+    margin: 0 auto;
+    /* padding: 2rem; */
+    text-align: center;
+}
