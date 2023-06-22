@@ -1,17 +1,17 @@
-import "./Features.css"
+import "./AppFeaturesSection.css"
 import CardsFeatures from "../../atoms/cardsFeatures/CardsFeatures"
 import IconsFeatures from "../../atoms/iconsFeatures/IconsFeatures"
 import ImgMobFeatures from "../../assets/Imgenes Comprimidas/mobiles.png"
 import lockImg from "../../assets/Iconos comprimidos/candado.svg"
 import upImg from "../../assets/Iconos comprimidos/subir-50.png"
 import crownImg from "../../assets/Iconos comprimidos/crown-50.png"
-import heartImg from "../../assets/Iconos comprimidos/corazones-50.png"
+import heartImg from "../../assets/Iconos comprimidos/corazones-50-png"
 import mixImg from "../../assets/Iconos comprimidos/mesa-de-mezclas-50.png"
 import boxImg from "../../assets/Iconos comprimidos/parcel-grande-50.png"
 
 
 
-function Features() {
+function AppFeaturesSection() {
   return (
     <>
     <div className="title">
@@ -48,4 +48,4 @@ function Features() {
   )
 }
 
-export default Features
+export default AppFeaturesSection
