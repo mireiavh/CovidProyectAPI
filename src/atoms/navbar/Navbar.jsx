@@ -1,6 +1,6 @@
 import "./Navbar.css"
 import Bttn from "../buttons/bttn"
-import Logo from "../../assets/Imgenes Comprimidas/logo.png"
+import Logo from "../../assets/images/logo.png"
 
 
 function Navbar() {
@@ -8,7 +8,7 @@ function Navbar() {
       <div className='navbar'>
           <div className='imgNavbar'>
             <img src={Logo}/>
-          </div>
+          </div>4
           <div className='textNavbar'>
             <ul>
                 <li><a>Home</a></li>

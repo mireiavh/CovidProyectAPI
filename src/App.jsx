@@ -1,13 +1,14 @@
-import './App.css'
-import RouterItem from './configuration/router'
+import RouterItem from './configuration/Router'
+import Footer from '/src/molecules/footer/Footer.jsx'
 
 function App() {
 
   return (
     <>
       <RouterItem></RouterItem>
+      <Footer/>
     </>
   )
-}
+} 
 
 export default App
