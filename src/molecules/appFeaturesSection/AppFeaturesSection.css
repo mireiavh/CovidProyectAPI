@@ -1,7 +1,7 @@
 *{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 2%;
-    background-color:#171133;
+    /*background-color:#171133;*/
 }   
 
 
@@ -14,11 +14,11 @@
 }
 h3{
     margin-top: 2%;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 h2{
-    font-size: 50px;
+    font-size: 70px;
     padding: 2%;
     color: white;
 }
@@ -30,4 +30,26 @@ p{
     font-size: 25px;
     padding: 2%;
     color: white;
+}
+
+.cardsContainer{
+    display: flex;
+    width: 100%;
+
+
+}
+.cardItem{
+    background-color: rgb(16, 161, 161);
+    
+}
+
+
+
+
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    
 }
