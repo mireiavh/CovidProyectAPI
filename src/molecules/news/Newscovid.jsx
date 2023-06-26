@@ -1,9 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import '../news/newsCovid.css'
-import blog1 from '../../assets/Imgenes Comprimidas/blog-1.jpg'
-import blog2 from '../../assets/Imgenes Comprimidas/blog-2.jpg'
-import blog3 from '../../assets/Imgenes Comprimidas/blog-3.jpg'
 
 function Newscovid() {
 
