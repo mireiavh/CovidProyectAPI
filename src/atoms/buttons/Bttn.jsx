@@ -1,8 +1,14 @@
 import "./Bttn.css"
 
-function Bttn() {
+function clickMe() {
+  alert('Oh! you clicked me!')
+}
+
+function Bttn(button) {
   return (
-    <button type='button' className='#'></button>
+    <div>
+      <button onClick={clickMe} className={button.className}>{ button.content }</button>
+    </div>
   )
 }
 
