@@ -6,6 +6,7 @@ import Faqs from "../../molecules/faqs/Faqs"
 import Newscovid from "../../molecules/news/Newscovid"
 import Footer from "../../molecules/footer/Footer"
 
+
 function LandingPage() {
   return (
     <>
