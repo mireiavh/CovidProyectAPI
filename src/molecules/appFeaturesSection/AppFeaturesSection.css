@@ -46,8 +46,9 @@
     flex-wrap: nowrap;
     width: 120%;
     gap: 2%;
-    overflow-x: auto;
-    scrollbar-width: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
     cursor: grab;
     
 }
@@ -61,7 +62,7 @@
 .cardItem5{
     background-color: rgb(0, 204, 236);
     width: 400px;
-    height: 301px;
+    height: 380px;
     border-radius: 5%;
     flex: 0 0 auto;
     
@@ -92,8 +93,12 @@ p{
 .icons{
     width: 100%;
     display: flex;
-    justify-content: center;
     gap: 15%;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
+}
+.icon1{
+    display: flex;
+    align-items: center;
+    
 }
