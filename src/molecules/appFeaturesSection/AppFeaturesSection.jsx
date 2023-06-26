@@ -51,8 +51,10 @@ function AppFeaturesSection() {
     </div>
 
    <div className="icons">
-      <IconsFeatures image={lockImg} content="403" contentP="STARTUPS"/>
-      <IconsFeatures image= {upImg} content={"120+"} contentP={"MEMBER"} />
+      <div className="icon1">
+      <IconsFeatures image={lockImg} content= "403" contentP="STARTUPS"/>
+      </div>
+      <IconsFeatures image= {upImg} content= "120+" contentP={"MEMBER"} />
       <IconsFeatures image= {crownImg} content={"22M"} contentP={"REVENUE"} />
       <IconsFeatures image= {heartImg} content={"5643"} contentP={"DOWNLOAD"} />
        
