@@ -1,6 +1,6 @@
 import "./Banner.css"
 
-//import button from "../../atoms/buttons/Bttn"
+import Button from "../../atoms/buttons/Bttn"
 import Navbar from "../../atoms/navbar/Navbar"
 import Brands from "../../atoms/brands/Brands"
 
@@ -17,7 +17,7 @@ function Banner() {
             mild illnesses, similar to the common cold. The corona virus
             COVID-19 is affecting 210 countries & territories around the
             worls and 2 international conveyances.</p>
-            <button>How to protect</button>
+            <Button className="bttnBanner" content = {'How to protect'}></Button>
         </div>
         <div className='imgContainer'>
           <img src={ImgBanner}/>

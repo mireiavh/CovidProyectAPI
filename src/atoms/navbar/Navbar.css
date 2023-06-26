@@ -10,6 +10,7 @@
 .textNavbar ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-right: 80px;
     list-style: none;
     /*Quitar redondito de la lista (esto Rocio lo sabe) --- ya esta resuelto*/

@@ -1,0 +1,53 @@
+.faqs-div {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.faqs{
+	display: flex;
+}
+
+p{
+	margin: 0;
+}
+
+.faqs{
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	text-align: center;
+	margin-top: 5rem;
+}
+
+.faqs p{
+	font-size: 0.8rem;
+	margin: 0;
+	color: white;
+}
+
+.faqs h2{
+	font-size: 2rem;
+	margin: 0;
+	color: white;
+}
+
+.descriptions-faqs{
+	display: flex;
+	flex-direction: column;
+	background-color: #1C2A4E;
+	margin: 4rem;
+	width: 750px;
+	height: 330px;
+	font-weight: lighter;
+    padding: 3rem;
+	color: white;
+	text-align: left;
+}
+
+.lorem-ipsum-one{
+	font-size: 0.7rem;
+	font-size: smaller;
+	font-weight: normal;
+}
