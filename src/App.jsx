@@ -1,11 +1,16 @@
-import './App.css';
-import LandingPage from './pages/LandingPage/LandingPage';
-//import Faqs from './molecules/faqs/Faqs';
+import './App.css'
+import RouterItem from './configuration/router'
+import Faqs from './molecules/faqs/Faqs';
+import Newscovid from './molecules/news/Newscovid'
+
+
 
 function App() {
   return (
     <>
-      <LandingPage></LandingPage>
+      <RouterItem></RouterItem>
+      <Newscovid></Newscovid>
+      <Faqs></Faqs>
     </>
   );
 }

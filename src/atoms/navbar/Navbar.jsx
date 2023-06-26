@@ -1,6 +1,6 @@
 import "./Navbar.css"
-import Bttn from "../buttons/bttn"
-import Logo from "../../assets/Imgenes Comprimidas/logo.png"
+import Button from "../buttons/Bttn"
+import Logo from "../../assets/ImgenesComprimidas/logo.png"
 
 
 function Navbar() {
@@ -18,7 +18,7 @@ function Navbar() {
                 </li>
                 <li><a>About</a></li>
                 <li><a>Help</a></li>
-                <Bttn></Bttn>
+                <Button className="bttnTracker" content = {'Tracker'}></Button>
             </ul>
           </div>
   
