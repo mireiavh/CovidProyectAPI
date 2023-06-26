@@ -1,13 +1,13 @@
-import './App.css'
-import RouterItem from './configuration/router'
+import './App.css';
+import LandingPage from './pages/LandingPage/LandingPage';
+//import Faqs from './molecules/faqs/Faqs';
 
 function App() {
-
   return (
     <>
-      <RouterItem></RouterItem>
+      <LandingPage></LandingPage>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
