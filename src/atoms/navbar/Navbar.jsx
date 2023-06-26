@@ -8,14 +8,13 @@ function Navbar() {
       <div className='navbar'>
           <div className='imgNavbar'>
             <img src={Logo}/>
-          </div>4
+          </div>
           <div className='textNavbar'>
             <ul>
                 <li><a>Home</a></li>
                 <li><a>Prevention</a></li>
                 <li><a>Qurantine</a></li>
-                <li><a>Pages</a>
-                </li>
+                <li><a>Pages</a></li>
                 <li><a>About</a></li>
                 <li><a>Help</a></li>
                 <Button className="bttnTracker" content = {'Tracker'}></Button>
