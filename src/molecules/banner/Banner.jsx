@@ -4,7 +4,7 @@ import "./Banner.css"
 import Navbar from "../../atoms/navbar/Navbar"
 import Brands from "../../atoms/brands/Brands"
 
-import ImgBanner from "../../assets/Imgenes Comprimidas/phones.png"
+import ImgBanner from "../../assets/ImgenesComprimidas/phones.png"
 
 function Banner() {
   return (

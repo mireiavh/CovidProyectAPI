@@ -1,10 +1,10 @@
 import "./Brands.css"
 
-import Time from "../../assets/Imgenes Comprimidas/b-2.png"
-import Cean from "../../assets/Imgenes Comprimidas/b-3.png"
-import Albero from "../../assets/Imgenes Comprimidas/b-4.png"
-import Dora from "../../assets/Imgenes Comprimidas/b-5.png"
-import GreenTurtle from "../../assets/Imgenes Comprimidas/b-6.png"
+import Time from "../../assets/ImgenesComprimidas/b-2.png"
+import Cean from "../../assets/ImgenesComprimidas/b-3.png"
+import Albero from "../../assets/ImgenesComprimidas/b-4.png"
+import Dora from "../../assets/ImgenesComprimidas/b-5.png"
+import GreenTurtle from "../../assets/ImgenesComprimidas/b-6.png"
 
 
 function Brands() {
