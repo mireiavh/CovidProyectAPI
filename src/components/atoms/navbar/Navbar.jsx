@@ -1,6 +1,6 @@
 import "./Navbar.css"
-import Button from "../buttons/Bttn"
-import Logo from "../../assets/images/logo.png"
+import Button from "../../atoms/buttons/Bttn"
+import Logo from "../../../assets/images/logo.png"
 
 
 function Navbar() {

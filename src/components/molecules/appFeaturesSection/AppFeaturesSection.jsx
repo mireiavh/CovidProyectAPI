@@ -2,13 +2,13 @@ import "./AppFeaturesSection.css"
 
 import CardsFeatures from "../../atoms/cardsFeatures/CardsFeatures"
 import IconsFeatures from "../../atoms/iconsFeatures/IconsFeatures"
-import ImgMobFeatures from "../../assets/images/mobiles.png"
-import lockImg from "../../assets/icons/candado.svg"
-import upImg from "../../assets/icons/subir-50.png"
-import crownImg from "../../assets/icons/crown-50.png"
-import heartImg from "../../assets/icons/corazones-50.png"  
-import mixImg from "../../assets/icons/mesa-de-mezclas-50.png"
-import boxImg from "../../assets/icons/parcela-grande-50.png"
+import ImgMobFeatures from "../../../assets/images/mobiles.png"
+import lockImg from "../../../assets/icons/candado.svg"
+import upImg from "../../../assets/icons/subir-50.png"
+import crownImg from "../../../assets/icons/crown-50.png"
+import heartImg from "../../../assets/icons/corazones-50.png"  
+import mixImg from "../../../assets/icons/mesa-de-mezclas-50.png"
+import boxImg from "../../../assets/icons/parcela-grande-50.png"
 
 
 

@@ -1,5 +1,5 @@
 import './faqs.css';
-import ImgMob2 from "../../assets/images/phone-1.png"
+import ImgMob2 from "../../../assets/images/phone-1.png"
 
 function Faqs() 
 {
