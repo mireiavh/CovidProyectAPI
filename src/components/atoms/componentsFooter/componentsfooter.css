@@ -7,6 +7,7 @@
 .footerbox li {
     color: #6F6F92;
     font-size: small;
+    padding-bottom: 20px;
 
 }
 .footerbox li:hover {
@@ -17,5 +18,4 @@
 .footerbox h2, li {
     margin-right: 80px;
     font-weight: lighter;
-    padding-bottom: 20px;
 }   

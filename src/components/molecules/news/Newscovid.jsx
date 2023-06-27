@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
-import '../news/newsCovid.css'
+import './newsCovid.css'
 
 function Newscovid() {
 

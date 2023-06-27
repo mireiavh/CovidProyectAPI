@@ -4,7 +4,7 @@ import Button from "../../atoms/buttons/Bttn"
 import Navbar from "../../atoms/navbar/Navbar"
 import Brands from "../../atoms/brands/Brands"
 
-import ImgBanner from "../../assets/images/phones.png"
+import ImgBanner from "../../../assets/images/phones.png"
 
 function Banner() {
   return (

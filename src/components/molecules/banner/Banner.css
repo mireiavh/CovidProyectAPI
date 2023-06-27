@@ -1,12 +1,15 @@
-
 .container {
     display: flex;
     justify-content: space-between;
-    margin-left: 300px;
+    margin-top: 40px;
+    margin-left: 100px;
     margin-right: 300px;
+    margin-bottom: 100px;
     background-image: "../../assets/Imgenes Comprimidas/page-nav.jpg";
+    line-height: 1;
 }
 .textContainer {
+    margin-left: 200px;
     margin-right: 200px;
     text-align: left;
 }
@@ -15,9 +18,11 @@
     color: white;
 }
 .textContainer p {
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     color: white;
+    margin-right: 100px;
+    margin-bottom: 40px;
 }
 .imgContainer {
     margin-top: 35px;

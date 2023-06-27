@@ -1,10 +1,10 @@
 import "./footer.css"
-import Logo from '../../assets/images/logo-white.png'
-import Facebook from '../../assets/icons/facebook.png'
-import Twitter from '../../assets/icons/twitter.png'
-import Linkedin from '../../assets/icons/linkedin.png'
-import YouTube from '../../assets/icons/youtube.png'
-import Componentsfooter from '../../atoms/componentsFooter/Componentsfooter'
+import Logo from '../../../assets/images/logo-white.png'
+import Facebook from '../../../assets/icons/facebook.png'
+import Twitter from '../../../assets/icons/twitter.png'
+import Linkedin from '../../../assets/icons/linkedin.png'
+import YouTube from '../../../assets/icons/youtube.png'
+import Componentsfooter from '../../../components/atoms/componentsFooter/Componentsfooter'
 
 
 function Footer() {

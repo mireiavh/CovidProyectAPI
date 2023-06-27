@@ -1,6 +1,6 @@
 import "./Navbar.css"
-import Button from "../buttons/Bttn"
-import Logo from "../../assets/images/logo.png"
+import Button from "../../atoms/buttons/Bttn"
+import Logo from "../../../assets/images/logo.png"
 
 
 function Navbar() {
@@ -8,14 +8,13 @@ function Navbar() {
       <div className='navbar'>
           <div className='imgNavbar'>
             <img src={Logo}/>
-          </div>4
+          </div>
           <div className='textNavbar'>
             <ul>
                 <li><a>Home</a></li>
                 <li><a>Prevention</a></li>
                 <li><a>Qurantine</a></li>
-                <li><a>Pages</a>
-                </li>
+                <li><a>Pages</a></li>
                 <li><a>About</a></li>
                 <li><a>Help</a></li>
                 <Button className="bttnTracker" content = {'Tracker'}></Button>
