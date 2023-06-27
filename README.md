@@ -98,7 +98,7 @@ Aprende React aquí: [React documentation](https://reactjs.org/).
 * npm install --save styled-components.
 
 ## Developers
-https://avatars.githubusercontent.com/u/132447061?v=4
+
 | [<img src="https://avatars.githubusercontent.com/u/132447061?v=4?v=4" width=115><br><sub>Mireia Vázquez</sub>](https://github.com/mireiavh) |  [<img src="https://avatars.githubusercontent.com/u/132447075?v=4?v=4" width=115><br><sub>Jimena Castellanos</sub>](https://github.com/Jimena81) |  [<img src="https://avatars.githubusercontent.com/u/132447020?v=4" width=115><br><sub>Magdalena Filgueira</sub>](https://github.com/MaggieFilgueira) | [<img src="https://avatars.githubusercontent.com/u/132386229?v=4" width=115><br><sub>Liliana Gutiérrez</sub>](https://github.com/LilinaG) | [<img src="https://avatars.githubusercontent.com/u/132447264?v=4" width=115><br><sub>Madelaine Pereira</sub>](https://github.com/Madelainepereira) |
 | :---: | :---: | :---: | :---: | :---: |
  
