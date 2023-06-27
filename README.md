@@ -79,6 +79,19 @@ Aprende React aquí: [React documentation](https://reactjs.org/).
 
 ![Firefox_Screenshot_2023-01-29T11-56-38 935Z](https://user-images.githubusercontent.com/117080861/215325556-09bbf013-9632-4581-9caa-72d9c2fbfe1c.png)
 
+## Herramientas utilizadas
+
+*Html
+
+*Css
+
+*React
+
+*Axios
+
+*API's
+
+
 ## Otras instalaciones necesarias
 
 * npm install react-icons
