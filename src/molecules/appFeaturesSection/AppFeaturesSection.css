@@ -1,21 +1,23 @@
  
 
-
 .title{
   color: white;
   text-align: center;
-  width: 100%;
+
    
    
 }
 .titleApp{
-    margin-top: 2%;
-    font-size: 25px;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    font-size: 1.12rem;
     color: white;
 }
 
 .titleFeatures{
-    font-size: 70px;
+    font-size: 3.12rem;
+    margin-right: 30px;
     padding: 2%;
     color: white;
 }
@@ -26,12 +28,23 @@
     width: 100%;
     margin: 2%;
 }
+.stayHomeContainer{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+}
+.ftrTextContainer{
+    line-height: 1;
+}
 .stayHome{
     font-size: 70px;
     padding: 2%;
     color: white;
 }
 .textHuman{
+    margin-left: 25px;
     font-size: 30px;
     padding: 2%;
     color: white;
@@ -87,11 +100,12 @@ p{
 
 
 .icons{
-    width: 100%;
     display: flex;
     gap: 15%;
     color: white;
     font-size: 40px;
+    margin-top: 100px;
+    margin-left: 350px;
 }
 .icon1{
     display: flex;
