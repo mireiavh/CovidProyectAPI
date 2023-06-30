@@ -1,0 +1,35 @@
+.cardT1Container {
+    display: flex;
+    flex-direction: row; 
+         
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.default{
+    color: #3639AE;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.green{
+    color: #82c519;
+}
+
+.blue{
+    color: #2c6dff;
+}
+
+.orange {
+    color: #ff6a07;
+}
+
+.redDark {
+    color: #b70202;
+}
