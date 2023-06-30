@@ -1,0 +1,18 @@
+#cardSideBarContainer{
+    width: 410px;
+}
+
+#titleCases{
+    font-size: 20px;
+}
+#numberToday{
+    font-size: 10px;
+    padding: 4.8px ;
+    background-color: white;
+    width: fit-content;
+    color: #100D26;
+}
+#number{
+    font-size: 28px;
+}
+

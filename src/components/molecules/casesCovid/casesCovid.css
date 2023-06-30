@@ -1,0 +1,24 @@
+.casesTitle{
+    font-size: 25px;
+    color:rgb(2, 2, 77);
+    text-align: left;
+}
+
+
+.card1{
+    background-color: #fff2f2;
+    width: 100%;
+    
+    }
+    .card2{
+    background-color: #fff9f1;
+    width: 100%;
+    }
+    .card3{
+    background-color: #edffec;
+    width: 100%;
+    }
+    .card4{
+    background-color: #eefbff;
+    width: 100%;
+    }
