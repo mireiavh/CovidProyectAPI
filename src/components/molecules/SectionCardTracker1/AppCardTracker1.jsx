@@ -6,31 +6,34 @@ import covidGreen from "../../../assets/icons/covid-green.svg"
 import covidBlue from "../../../assets/icons/covid-blue.svg"
 import covidOrange from"../../../assets/icons/covid-orange.svg"
 import covidRedDark from "../../../assets/icons/covid-redark.svg"
+import useFetch from "../../../hooks/useFetch"
+import DynamicUrl from "../../../services/DynamicUrl"
 
 
 
 function AppCardTracker1() {
+    const data = useFetch(`${DynamicUrl}/all`);
     return ( 
         <>
             <section className="cardT1Container">   
                 <div className="wrap">             
                     <div className="CardT1">
-                        <CardTracker1  image={covidDefault} contentTitle={"Total Cases"} text= "default" contentNumber={"1654647"}/>
+                        <CardTracker1  image={covidDefault} contentTitle={"Total Cases"} text= "default" contentNumber={data.cases}/>
                     </div>
                     <div className="CardT1">
-                        <CardTracker1  image={covidRed} contentTitle={"Total Deaths"}  text= "red" contentNumber={"#"}/>
+                        <CardTracker1  image={covidRed} contentTitle={"Total Deaths"}  text= "red" contentNumber={data.deaths}/>
                     </div>
                     <div className="CardT1">
-                        <CardTracker1  image={covidGreen} contentTitle={"Total Recovered"}  text= "green" contentNumber={"#"}/>
+                        <CardTracker1  image={covidGreen} contentTitle={"Total Recovered"}  text= "green" contentNumber={data.recovered}/>
                     </div>
                     <div className="CardT1">
-                        <CardTracker1  image={covidBlue} contentTitle={"Total Active"}  text= "blue" contentNumber={"#"}/>
+                        <CardTracker1  image={covidBlue} contentTitle={"Total Active"}  text= "blue" contentNumber={data.active}/>
                     </div>
                     <div className="CardT1">
-                        <CardTracker1  image={covidOrange} contentTitle={"New Cases"}  text= "orange" contentNumber={"#"}/>
+                        <CardTracker1  image={covidOrange} contentTitle={"New Cases"}  text= "orange" contentNumber={data.todayCases}/>
                     </div>
                     <div className="CardT1">
-                        <CardTracker1  image={covidRedDark} contentTitle={"New Deaths"}  text= "redDark" contentNumber={"#"}/>
+                        <CardTracker1  image={covidRedDark} contentTitle={"New Deaths"}  text= "redDark" contentNumber={data.todayDeaths}/>
                     </div>
                 </div>    
             </section>  

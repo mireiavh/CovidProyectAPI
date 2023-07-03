@@ -1,13 +1,16 @@
-.cardT1Container {
-    width: 300px;
-    height: 100px;
+.cardContainerTracker {
+    width: 317px;
+    height: 119px;
     background: #fff;
     box-shadow: 0 0 10px;
+    overflow: hidden;
+    
 }
 
-.cardT1Container:hover {
+.cardContainerTracker:hover {
     transform: translate(0, -5px );
     transition: 0.5s;
+    overflow: hidden;
 }
 
 .cardText {
@@ -24,22 +27,26 @@
 
 .cardText p {
     font-size: 30px;
+    margin-left: 7%;
 }
 
 hr {
-    width: 210%;
+    width: 99%;
 }   
 
 
 
 .imgT1Container {
-    height: 130px;
-    width: auto;
+    height: 160px;
+    width: 160px;
     display: flex;
     opacity: 25%;
-    margin-top: -30px;
-    margin-left: 60px;
+    margin-top: -130px;
+    margin-left: 190px;
     position: static;
+    
+    
+    
 }
 
 .imgT1Container:hover {

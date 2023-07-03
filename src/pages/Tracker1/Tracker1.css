@@ -1,15 +1,11 @@
-.body
-{
-	display: flex;
+body{
+    line-height: 1.75;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 10%;
 }
-
-.sidebar-tracker
-{
-	width: 15%;
+.trackerContainer{
+    display: flex;
 }
-
-.dropdown
-{
-	width: 85%
-	
+.imgMap{
+    padding: 2%;
 }

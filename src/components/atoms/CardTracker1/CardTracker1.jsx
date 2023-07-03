@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import "./CardTracker1.css"
 
 
 function CardTracker1(props) {
   return (
-    <section className="cardT1Container">
+    <section className="cardContainerTracker">
       <div className="cardText">
         <h3 className={props.title}>{props.contentTitle}</h3>
         <hr />
