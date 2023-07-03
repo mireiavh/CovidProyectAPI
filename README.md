@@ -16,36 +16,11 @@ Este proyecto que nos han propuesto es para la creación de una réplica de un C
 
 Desarrollar el front-end de una aplicación que muestra de manera dinámica información sobre el estado del COVID consumiendo la API de CovidTracker
 
-# OBJETIVO PROFESIONAL
+# Objetivo Profesional
 Como desarrollad@r de una web, en el entorno profesional, es común que te enfrentes a situaciones en las que debas desarrollar aplicaciones que representen de manera dinámica datos consumidos en aplicaciones de terceros.
 
-# CONTEXTO
+# Contexto
 En respuesta a la demanda actual de soluciones tecnológicas para abordar los desafíos presentados por la pandemia del Covid-19, nuestra consultora se complace en presentar el proyecto de desarrollo front-end de un Dashboard sobre el Covid-19. Este proyecto tiene como objetivo principal proporcionar una plataforma interactiva y visualmente atractiva que permita a los usuarios acceder y analizar datos relevantes sobre el comportamiento de la enfermedad, incluyendo el número de contagios, recuperados y personas vacunadas. 
-
-# Funcionalidades
-*Se DEBE consumir la API de disease.sh para obtener los datos.
-
-*La página DEBE ser responsive.
-
-*Se DEBE hacer un desarrollo fiel a mockup y utilizar las imágenes y los íconos que se dejaron en los recursos.
-
-*La página DEBE filtrar por países.
-
-*En la parte de la tabla se DEBE poder organizar en orden según cada item.
-
-*La página DEBE permitir que el usuario decida qué número de resultados quiere ver en la tabla.
-
-*La página DEBE permitir búsquedas por palabras clave.
-
-*La página DEBE mostrar en alguna parte la cantidad de vacunados en el mundo.
-
-*La página DEBE filtrar los vacunados por país.
-
-*El sitio debe ser interactivo y generar las animaciones que se muestran en el video.
-
-*El repositorio DEBE tener un Readme muy específico, con capturas de pantalla y los pasos para la instalación del 
-proyecto y de las librerías si las van a usar.
-
 
 # Técnicos
 DEBE ser responsive en 2 puntos de quiebre (móvil y ordenador).
