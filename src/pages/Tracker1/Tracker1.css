@@ -1,0 +1,15 @@
+.body
+{
+	display: flex;
+}
+
+.sidebar-tracker
+{
+	width: 15%;
+}
+
+.dropdown
+{
+	width: 85%
+	
+}

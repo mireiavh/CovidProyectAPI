@@ -1,0 +1,29 @@
+.countryContainer{
+    width: 90%;
+    height: 40px;
+    border: rgb(205, 205, 205) 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.imgContainerCountries{
+    width: 50px;
+    height: 25px;
+    display: flex;
+    align-self: center;
+    margin-left: 2%;  
+
+}
+h4{
+    font-size: 20px;
+    margin-right: 25%;
+    align-self: center;
+
+}
+p{
+    align-self: center;
+    font-size: 25px;
+    margin-right: 2%;
+    font-weight: 600;
+    
+}

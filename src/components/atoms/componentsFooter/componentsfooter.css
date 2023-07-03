@@ -1,0 +1,21 @@
+.footerbox h2 {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+
+}
+.footerbox li {
+    color: #6F6F92;
+    font-size: small;
+    padding-bottom: 20px;
+
+}
+.footerbox li:hover {
+    color: white;
+    transition: 0.2s;
+}
+
+.footerbox h2, li {
+    margin-right: 80px;
+    font-weight: lighter;
+}   

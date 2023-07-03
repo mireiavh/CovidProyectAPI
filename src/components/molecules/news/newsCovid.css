@@ -1,0 +1,30 @@
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    align-items: center;
+    display: flex;
+    
+}
+
+.articlesContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.itemsContainer{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.itemsContainer img {
+    margin-right: 20px;
+}
