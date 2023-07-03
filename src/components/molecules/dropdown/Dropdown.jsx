@@ -1,5 +1,6 @@
 import './Dropdown.css'
 import { useEffect, useState } from "react";
+import getData from '../../../configuration/Dropdownservices';
 
 const Icon = () => {
   return (
@@ -9,20 +10,30 @@ const Icon = () => {
   );
 };
 
-const Dropdown = (data) => 
+const Dropdown = () => 
 {
+	const [data, setData] = useState([]);
 	const [showMenu, setShowMenu] = useState(false);
 	const [selectedValue, setSelectedValue] = useState(null);
 	const options = [];
 	const placeHolder = 'Afghanistan';
-
+	const url = "https://disease.sh/v3/covid-19/vaccine/coverage/countries?lastdays=1";
+	
+	console.log(data);
 	for (let i = 0; i < data.length; i++)
     {
 		options[i] = { value: data[i].country.toLowerCase(), label: data[i].country };
     }
 
+	const doSomething = async () => 
+		{
+			let response = await getData(url)
+			setData(response);
+		}
+
 	useEffect(() => 
 	{
+		doSomething();	
 		const handler = () => setShowMenu(false);
 
 		window.addEventListener("click", handler);
@@ -31,7 +42,7 @@ const Dropdown = (data) =>
 			window.removeEventListener("click", handler);
 		}
 
-	});
+	}, []);
 
 	const handleInputClick = (e) =>
 	{
