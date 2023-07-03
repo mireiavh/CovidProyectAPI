@@ -1,6 +1,7 @@
 
 .footer {
     background-color: #1B2A4E; 
+    margin: 0;
 }
 .footerContainer {
     display: flex;
@@ -22,7 +23,6 @@
 .infoText p {  
     text-align: left;
     color: #6F6F92;
-    padding-left: 50px;
     padding-right: 100px;
 }   
 .infoMedia {

@@ -1,0 +1,61 @@
+.navbarBox {
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: auto;
+}
+.imgSidebar {
+    display: flex;
+    justify-content: center;
+    animation-name: spiner;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+@keyframes spiner {
+    from {transform: rotate(0deg);
+
+    }to {transform: rotate(380deg);
+
+    }
+
+}
+.imgSidebar img {
+    height: 60px;
+    width: auto;
+}
+.listContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 60px;
+    width: 60px;
+}
+.imgContainer:hover {
+    background-color: #b7b8ff;
+    transition: 0.5s;
+}
+.iconSidebarList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.iconSidebarList  img{
+    height: 25px;
+    width: auto;
+}
+
+.footerIcon {
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+}

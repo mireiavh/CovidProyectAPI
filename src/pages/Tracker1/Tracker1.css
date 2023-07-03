@@ -1,10 +1,12 @@
 body{
     line-height: 1.75;
     font-family: 'Poppins', sans-serif;
-    margin-left: 10%;
 }
 .trackerContainer{
     display: flex;
+}
+.dropdown {
+    background-color: rgb(232, 239, 246);
 }
 .imgMap{
     padding: 2%;
