@@ -1,5 +1,5 @@
 
-
+import "./landing.css"
 import Banner from "../../components/molecules/banner/Banner"
 import AppFeaturesSection from "../../components/molecules/appFeaturesSection/AppFeaturesSection"
 import Faqs from "../../components/molecules/faqs/Faqs"

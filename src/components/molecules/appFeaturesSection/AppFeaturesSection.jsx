@@ -30,7 +30,7 @@ function AppFeaturesSection() {
         <div className="cardItem2">
         <CardsFeatures image={boxImg} content1={"Difficulty Breathing"} content={"Shortness of breathe can be a third -- and very serius -- manifestation of COvid-19, and it can occur on its own, without a cough."}/>
         </div>
-        <div className="cardItem3">
+        {/* <div className="cardItem3">
         <CardsFeatures image={lockImg} content1={"Fever"} content={"Fever is a key symptom,experts say. Don't fixate on a number, but know it's really not a fever until your temperature reaches at least 100"}/>
         </div>
         <div className="cardItem4">
@@ -38,7 +38,7 @@ function AppFeaturesSection() {
         </div>
         <div className="cardItem5">
         <CardsFeatures image={boxImg} content1={"Difficulty Breathing"} content={"Shortness of breathe can be a third -- and very serius -- manifestation of COvid-19, and it can occur on its own, without a cough."}/>
-        </div>
+        </div> */}
       </div>
       <div className="stayHomeContainer">
         <div className="ftrParagraph">
@@ -46,7 +46,7 @@ function AppFeaturesSection() {
         </div>
         <div className="ftrTextContainer">
           <h2 className="stayHome">Stay Home, Prayer For Victim</h2> 
-          <p className="textHuman">Human coronaviruses are common and are typically associated with mild illnesses, similar to the common cold.
+          <p id="litleText" className="textHuman">Human coronaviruses are common and are typically associated with mild illnesses, similar to the common cold.
           Shortness of breath can be a third -- and very serious -- manifestation of Covid-19, and it can occur on its own, without a cough.</p>  
         </div>
       </div>

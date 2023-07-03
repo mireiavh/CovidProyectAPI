@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
-    margin-left: 100px;
-    margin-right: 300px;
+    margin-left: 300px;
+    margin-right: 500px;
     margin-bottom: 100px;
-    background-image: "../../assets/Imgenes Comprimidas/page-nav.jpg";
+    background-image: url(../../../assets/images/Background.png);
+    background-size: cover;
     line-height: 1;
 }
 .textContainer {
@@ -14,16 +15,24 @@
     text-align: left;
 }
 .textContainer h1 {
-    font-size: 80px;
+    font-size: 90px;
     color: white;
 }
 .textContainer p {
-    font-size: 25px;
-    font-style: normal;
+    font-size: 30px;
     color: white;
-    margin-right: 100px;
-    margin-bottom: 40px;
+  
+    width: 100%;
+
+
+
 }
 .imgContainer {
     margin-top: 35px;
+    height: 150px;
+    width: 100px;
+}
+.bttnBanner{
+    width: 20px;
+    height: 25px;
 }

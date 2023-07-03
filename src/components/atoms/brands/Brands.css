@@ -3,7 +3,8 @@
     flex-direction: row;
     justify-content: space-around;
     margin: auto;
+    height: 100px;
     background-color: white;
-    border-radius: 15px;
-    width: 1300px;
+    border-radius: 3px;
+    width: 1700px;
 }

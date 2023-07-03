@@ -2,10 +2,16 @@ body{
     line-height: 1.75;
     font-family: 'Poppins', sans-serif;
     margin-left: 10%;
+    
 }
+
 .trackerContainer{
-    display: flex;
+   display: flex;
 }
-.imgMap{
-    padding: 2%;
+.dropdown{
+    display: flex;
+    flex-wrap: wrap;
+}
+#imgMap{
+    margin-left: 50px;
 }
